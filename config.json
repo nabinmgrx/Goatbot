@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "nabinmgrx42@gmail.com",
+    "password": "@mine123456#",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change language using ISO 639-1 code",
-  "nickNameBot": "XUDI OKAY?",
+  "nickNameBot": "Kakashi Bot",
   "prefix": "/",
   "enableTypingIndicator": true,
   "typingDuration": 2000,
@@ -36,7 +36,7 @@
   ],
   "reactUnsend": {
     "enable": true,
-    "onlyAdmin": true,
+    "onlyAdmin": false,
     "emojis": [
       "😡",
       "🤬"
@@ -63,7 +63,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "Recommended using 'mongodb' or 'sqlite'."
   },
-  "timeZone": "Asia/Dhaka",
+  "timeZone": "Asia/Kathmandu",
   "credentials": {
     "gmailAccount": {
       "email": "botofnexxo@gmail.com",
