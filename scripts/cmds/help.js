@@ -7,7 +7,7 @@ module.exports = {
     name: "help",
     aliases: ["menu", "commands"],
     version: "6.4",
-    author: "EryXenX",
+    author: "Nabin",
     shortDescription: "Show all commands",
     longDescription: "Show all commands in clean UI",
     category: "system",
@@ -69,7 +69,7 @@ module.exports = {
  ✦ Aliases  : ${cmd.config.aliases?.join(", ") || "None"}
  ✦ Category : ${categoryFont((cmd.config.category || "Others").toUpperCase())}
  ✦ Version  : v${cmd.config.version || "1.0"}
- ✦ Author   : ${cmd.config.author || "Unknown"}
+ ✦ Author   : ${cmd.config.author || "Nabin"}
  ✦ Usage    : ${prefix}${usage}
 ━━━━━━━━━━━━━━━
  📝 ${(cmd.config.longDescription || cmd.config.shortDescription || "No description")}`;
@@ -89,7 +89,7 @@ module.exports = {
 `╭─ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐌𝐄𝐍𝐔
 ├ Prefix : ${prefix}
 ├ Total  : ${allCommands.size}
-├ Author : EryXenX\n`;
+├ Author : NABIN\n`;
 
     for (const cat of Object.keys(categories).sort()) {
       const catTitle = categoryFont(cat.toUpperCase());
